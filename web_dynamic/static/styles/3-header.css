@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/** Holberton Practice Styles
+ * ------ Header
+ */
+
+header {
+	background-color: #FFFFFF;
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-position: 20px 50%;
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	display: flex;
+}
+
+header #api_status{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background-color: #CCCCCC;
+	margin: auto 30px auto auto;
+}
+
+header .available {
+	background-color: #ff545f !important;
+}
